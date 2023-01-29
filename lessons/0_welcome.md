@@ -6,7 +6,7 @@ section: 'Introduction'
 description: 'Course guidelines and objectives'
 ---
 
-and welcome to React Native Workshop! Organized by [Tiigsi Workshops](https://tiigsi.org)👋
+Welcome to React Native Workshop! Organized by [Tiigsi Workshops](https://tiigsi.org)👋
 
 ## Course Objective
 
