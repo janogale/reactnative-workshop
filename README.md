@@ -1,8 +1,6 @@
-# [React Native v2](https://frontendmasters.com/courses/react-native-v2/)
+# React Native Workshop
 
-Welcome to my React Native course! See the [course website here](https://kadikraman.github.io/react-native-v2/).
-
-If you'd like to follow along with videos for the course, you can watch my [React Native v2 course](https://frontendmasters.com/courses/react-native-v2/) on Frontend Masters.
+Welcome to my React Native course!
 
 ## About the course
 
@@ -23,4 +21,3 @@ You just want to try out React Native, but don't want to spend much time on setu
 #### You should use plain React Native if:
 
 You have time and interest in setting up the native development environment (can take quite a few hours depending on your operating system and environment)
-
