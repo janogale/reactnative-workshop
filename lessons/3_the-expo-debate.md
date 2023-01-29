@@ -6,7 +6,13 @@ section: 'Introduction'
 description: 'We discuss the benefits and drawback of using Expo'
 ---
 
-If you've been eyeing up the React Native space already, you've probably heard of [Expo](https://expo.io/). Expo is essentially a suite of tools build for and around React Native, designed to improve and enhance the developer experience. They are a separate company, not affiliated with Facebook.
+There are two popular ways to create a React Native app — you can use the **Expo CLI** or you can use the **React Native CLI**. Planning to build a cross-platform app, you may get confused between React Native or Expo.
+
+##### So which one is better for the development of your app?
+
+## Expo
+
+Expo is a framework to build React Native apps. It is a set with tools and services built for React Native. It will help you begin with building React Native apps with ease. It provides you with a list of tools that simplify the creation and testing of React Native app. Besides that Expo provides a more robust and convenient development workflow with flexibility.
 
 Some people have strong options on whether or not they want to use Expo for React Native, and if you're one of those people, feel free to skip this and carry on with your preference. This is an introductory workshop and can be followed with Expo and without. However if you don't have any strong opinions on this and need help deciding, read on!
 
