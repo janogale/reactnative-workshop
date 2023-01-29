@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Roboto';
-  background-color: #bfd7ff;
+  background-color: #ffffff;
 }
 
 a {
@@ -15,7 +15,7 @@ a:hover {
 
 a,
 li a {
-  color: #5465ff;
+  color: #009b77;
 }
 
 .navbar {
@@ -27,7 +27,7 @@ li {
 }
 
 .gradient {
-  background: linear-gradient(135deg, #bfd7ff 0%, #bfd7ff 100%);
+  background: linear-gradient(135deg, #00a170 0%, #00a170 100%);
 }
 
 .lesson {

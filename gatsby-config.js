@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "React Native v2",
+    title: "React Native Workshop",
     subtitle: "Building mobile applications",
     description:
       "All you need to know when starting a new React Native project",
     keywords: ["React Native", "iOS", "Android", "hooks"]
   },
-  pathPrefix: "/react-native-v2",
+  pathPrefix: "/react-native",
   plugins: [
     `gatsby-plugin-layout`,
     {
