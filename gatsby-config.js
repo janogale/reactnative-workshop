@@ -6,7 +6,7 @@ module.exports = {
       "All you need to know when starting a new React Native project",
     keywords: ["React Native", "iOS", "Android", "hooks"]
   },
-  pathPrefix: "/react-native",
+
   plugins: [
     `gatsby-plugin-layout`,
     {
