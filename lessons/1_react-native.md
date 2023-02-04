@@ -57,6 +57,8 @@ So in order to target 99% of smartphone users, we'll have to build two apps: one
 
 It's easy to imagine the difficulties this can cause: you'll have to manage two of everything: language, codebases, developer teams, feature sets, release schedules etc. Hiring two developer teams is expensive, and hiring a single team that has in depth knowledge of both Android and iOS is almost impossible.
 
+**Solution to this problem is `React Native` and Similar Technologies**
+
 React Native is a platform developed by Facebook for solving this problem. Their goal was to build a platform that enables you to have:
 
 - fully native apps (not webviews/PWAs)
@@ -69,7 +71,9 @@ React Native is a platform developed by Facebook for solving this problem. Their
     <img alt="One dream RN team" src="./images/rn-how-work-3.png" />
 </div>
 
-Note: React Native is not the only such framework, and it's not even the first, but where it differs from others is that a built React Native app is indistinguishable from a "real" native app. Unlike most of the other frameworks, it is not just a webview that look like a real app. The other really standout feature is that React Native apps are infinitely extensible: you are not constrained by the framework and you can always pure native code in your app if you want to do something the framework doesn't already enabled. Finally, if you're already familiar to React and web development, then the learning curve for React Native is really not that steep.
+Note: React Native is not the only such framework, and it's not even the first, but where it differs from others is that a React Native app is indistinguishable from a "real" native app.
+
+Unlike most of the other frameworks, it is not just a webview that look like a real app. The other really standout feature is that React Native apps are infinitely extensible: you are not constrained by the framework and you can always use pure native code in your app if you want to do something the framework doesn't already enabled. Finally, if you're already familiar to React and web development, then the learning curve for React Native is really not that steep.
 
 ## How does it work?
 
@@ -81,5 +85,5 @@ Note: React Native is not the only such framework, and it's not even the first, 
 
 React Native is built in such a way that it targets existing compilers. For example, we have compilers that accept Java / Kotlin code and target Android platform, or Objective C / Swift targeting iOS platform. This is really powerful, because
 
-1. Native compilers are _designed_ for this, so we'll be no worse than non-React Native apps, and
+1. Native compilers are _designed_ for this, we be much like Native Apps, and
 2. This makes the React Native framework extensible to other native platforms. React Native Windows? VR? Web? It could all be available from our one unified JavaScript API.
