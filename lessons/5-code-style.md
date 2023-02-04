@@ -104,7 +104,3 @@ Code => Preferences => Extentions => ESLint
 Atom => Preferences => Install => linter-eslint
 
 You may have to close and reopen your code editor for the package to start working, but that's it! You now have the optimal working environment.
-
-[🔗 Expo c4463a28410a10b295fe76c9a273a7c3ae5dc76c](https://github.com/kadikraman/AwesomeProjectExpo/commit/c4463a28410a10b295fe76c9a273a7c3ae5dc76c)
-
-[🔗 RN 4822e123aa0e9d2892970a74065f2dc15ebec6e6](https://github.com/kadikraman/AwesomeProjectRN/commit/4822e123aa0e9d2892970a74065f2dc15ebec6e6)

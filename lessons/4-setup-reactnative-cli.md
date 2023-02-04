@@ -1,12 +1,14 @@
 ---
 path: '/setup-rn'
-title: '[RN] Getting started with plain React Native'
+title: 'React Native CLI'
 order: 4
 section: 'Setup'
 description: 'Setting up with plain React Native'
 ---
 
-If you are already familiar with mobile development (or if you can't or don't want to use Expo), you may want to use the React Native CLI. This requires Android Studio or XCode in order to get started. If you already have these installed, you should be up and running within minutes. If not, you should expect to spend an hour or so on installing and configuring them.
+If you are already familiar with mobile development (or if you can't or don't want to use Expo), you may want to use the React Native CLI. This requires `Android Studio` or `XCode` in order to get started.
+
+If you already have these installed, you should be up and running within minutes. If not, you should expect to spend an hour or so on installing and configuring them.
 
 **Note!** If you are using a Windows or Linux machine, you won't be able to build the iOS app, but you can build the Android one. This is why a lot of React Native developers end up using MacBook Pros, since this way you can work on both native apps are the same time. If you want to test on your own iOS device but you don't have a Mac, you may want to look into using Expo instead.
 
