@@ -17,10 +17,10 @@ For getting started, follow the React Native CLI quickstart in the [environment 
 Now that we've got all the environment prep out of the way, let's get started and create our application. Open your terminal and run:
 
 ```sh
-npx react-native init AwesomeProject
+npx react-native init MyApp
 ```
 
-Here, `npx` is a command line utility that's bundled with npm (installed with Node.js) and allows you to run command line programs from npm without globally installing them. `react-native init AwesomeProject` tells the cli tool to create a new project called AwesomeProject. You can use a different name if you prefer.
+Here, `npx` is a command line utility that's bundled with npm (installed with Node.js) and allows you to run command line programs from npm without globally installing them. `react-native init MyApp` tells the cli tool to create a new project called AwesomeProject. You can use a different name if you prefer.
 
 Now it's time to run the project! For native projects, we need to do two things:
 
@@ -30,7 +30,7 @@ Now it's time to run the project! For native projects, we need to do two things:
 First, lets start the packager:
 
 ```sh
-cd AwesomeProject
+cd MyApp
 npm run start
 ```
 
@@ -72,13 +72,13 @@ instruments -s devices
 
 This will list all the devices (real and simulated) available on your computer. I never changes my phone's name, so it's set at the default: "Kadi’s iPhone" (notice the fancy `’` - this is important).
 
-Now open the terminal in your project root directory (inside AwesomeProject) and run
+Now open the terminal in your project root directory (inside MyApp) and run
 
 ```sh
-npx react-native run-ios --device="Kadi’s iPhone"
+npx react-native run-ios --device="iPhone 12"
 ```
 
-Where "Kadi’s iPhone" is the name of your phone. Note that this will take a little while to build, and you have to make sure your device is unlocked while the installation is taking place.
+Where "iPhone 12" is the name of your phone. Note that this will take a little while to build, and you have to make sure your device is unlocked while the installation is taking place.
 
 ### Android - running on an emulator
 
@@ -113,8 +113,6 @@ For any platform-specific issues and nuances, consult the [documentation](https:
 ### Emulator vs Simulator
 
 You may have noticed we've been saying "iPhone Simulator" and "Android Emulator". This is intentional. The difference between emulators and simulators is that emulators mimic the software and hardware environments found on actual devices. Simulators, on the other hand, only mimic the software environment; they otherwise have access to all of the host system's hardware resources such as disk space, memory and processor speed. This means that on Android Emulators, you can be reasonably confident that the physical device will act similarly to the emulator. iPhone simulators however are free from hardware constraints such as running out of memory. This is why it's important to test your iPhone app on a real device if at all possible before publishing to the store.
-
-[🔗 RN 0a65fa34b6d9f0186c38d78f2e18e2cf0bfc3ca2](https://github.com/kadikraman/AwesomeProjectRN/commit/0a65fa34b6d9f0186c38d78f2e18e2cf0bfc3ca2)
 
 ## Folder Structure
 
