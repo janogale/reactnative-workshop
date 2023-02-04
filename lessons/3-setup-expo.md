@@ -28,7 +28,17 @@ This installs the expo cli globally. We'll be using this to create our new proje
 ### Create the project
 
 ```sh
-expo init AwesomeProject
+expo init myapp
+
+cd myapp
+```
+
+or
+
+```sh
+npx create-expo-app myapp
+
+cd myapp
 ```
 
 You'll be prompted to choose a template. Pick 'blank' - we're starting from scratch!
@@ -36,7 +46,8 @@ You'll be prompted to choose a template. Pick 'blank' - we're starting from scra
 ### Run the project
 
 ```sh
-cd AwesomeProject
+cd myapp
+
 npm start
 ```
 
@@ -44,9 +55,11 @@ Note that you can also use `expo start` or `yarn start` if you have yarn install
 
 ### Preview the app on your phone
 
-First, make sure that your phone is connected to the same WiFi network as your computer. This is really important!
+download `Expo Go app` for Android and iOS
 
-Next you'll need to install the Expo client on your phone. This is the native shell Expo provides that lets you get started without having the build the native app yourself. Go to the App Store or Play store, search for "Expo" and install it. You will also have to create an Expo account if you don't already have one (don't worry - it's free!).
+The fastest way to get up and running is to use the Expo Go client app on your Android or iOS device. It allows you to open up apps served through Expo CLI and run your projects faster when developing them. It is available on both the Android Play Store and iOS App Store.
+
+First, make sure that your phone is connected to the same WiFi network as your computer. This is really important!
 
 Finally, open the browser window that was opened when you ran the packages. See the QA code? If you're on Android, you can scan the code with your Expo app. On iOS, open the camera app to can the code. You will be prompted to "open in Expo".
 
@@ -55,10 +68,6 @@ At this point you should see something like this:
 <div style="width:250px;margin:0 auto;margin-bottom:20px">
     <img alt="Expo hello world" src="./images/expo-init.png" />
 </div>
-
-And that's it! You're ready to start coding!
-
-[🔗 Expo dd3bca50a532c90902252a3e9dcd0ef608000ee8](https://github.com/kadikraman/AwesomeProjectExpo/commit/dd3bca50a532c90902252a3e9dcd0ef608000ee8)
 
 ## Folder Structure
 

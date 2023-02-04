@@ -36,4 +36,6 @@ Expo is a framework to build React Native apps. It is a set with tools and servi
 - Plain React Native on iOS simulator: ❌
 - Plain React Native on Android emulator: ~3 hours
 
+## Expo Limitations
+
 Expo restrictions only really come to play when you're doing advanced things with React Native. In particular, if you need to make any _native_ changes to your code. Basically if you need to install any libraries or add anything that changes any of the non-JavaScript code or configurations. You'll have to eject from the Expo safe space and start managing all your native code yourself as you would with plain React Native.
