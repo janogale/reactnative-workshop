@@ -54,9 +54,6 @@ import ColorBox from './components/ColorBox';
 
 Now you should be able to see the text "I am a color box" in your app just under the last box!
 
-[🔗 Expo 15c2fda13a771ddb0923ebf536c493fbc32d6f90](https://github.com/kadikraman/AwesomeProjectExpo/commit/15c2fda13a771ddb0923ebf536c493fbc32d6f90)
-
-[🔗 RN 19af3bead2ec10cb93c96f3805590ee38c3a434c](https://github.com/kadikraman/AwesomeProjectRN/commit/19af3bead2ec10cb93c96f3805590ee38c3a434c)
 
 ## Props
 
