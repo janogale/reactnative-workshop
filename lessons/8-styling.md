@@ -75,7 +75,9 @@ const styles = StyleSheet.create({
 
 ## Positioning
 
-In React Native, all positioning is done using FlexBox and all elements have `display: flex` applied by default. If you've not used flex much before it may seem a bit daunting, but the basics are not too tricky to grasp. If you have time, [FlexBox froggy](https://flexboxfroggy.com/) is a fun little game that introduce you to the flex iteratively while you move frogs around the pond. For everyday reference [this guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) from CSS Tricks is pretty handy.
+In React Native, all positioning is done using FlexBox and all elements have `display: flex` applied by default. If you've not used flex much before it may seem a bit daunting, but the basics are not too tricky to grasp.
+
+Please refer [this guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) from CSS Tricks which is pretty handy.
 
 Suppose we wanted to center all content in a container horizontally. For this, we can use `alignItems: 'center`:
 
@@ -130,26 +132,6 @@ You can also mix `StyleSheet` styles and object styles:
 <View style={[styles.firstStyle, { backgroundColor: 'teal' }]} />
 ```
 
-## Side note: Styled Components
+**Note**
 
-If you are a fan of styled components, you might be excited to know that they have React Native support! Styling native elements looks pretty much the same as on the web, only instead of:
-
-```js
-import styled from 'styled-components';
-
-const StyledDiv = styled.div`
-  background-color: lavender;
-`;
-```
-
-You'll have to do:
-
-```js
-import styled from 'styled-components/native';
-
-const StyledView = styled.View`
-  background-color: lavender;
-`;
-```
-
-Otherwise the experience is exactly the same! You can even use `kebab-case` like on the web! For this workshop, we will use `StyleSheet`, but feel free to explore this in your own time. Read more about it [here](https://styled-components.com/docs/basics#react-native).
+> A component can only expand to fill available space if its parent has dimensions greater than 0. If a parent does not have either a fixed width and height or flex, the parent will have dimensions of 0 and the flex children will not be visible.
