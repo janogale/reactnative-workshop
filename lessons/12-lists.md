@@ -6,19 +6,26 @@ section: 'Basic components'
 description: 'Lists in React Native'
 ---
 
-What if instead of 4 colors, we had 10 or even 100? How would we display them then? If you're already familiar with React, you might be tempted to add all the colors in an array and `.map` over them. This is a very common mistake for newcomers to React Native. While it may be fine to do on the web, in React Native you should avoid using map in the render. This is because mapping over an array is not optimized. React Native will attempt to render every single element in the array all at once, regardless of whether they are visible on the screen or not.
+What if instead of 4 colors, we had 10 or even 100? How would we display them then? If you're already familiar with React, you might be tempted to add all the colors in an array and `.map` over them.
 
-There are special components in React Native for rendering lists: these are [FlatList](https://reactnative.dev/docs/flatlist) and [SectionList](https://reactnative.dev/docs/sectionlist).
+This is a very common mistake for newcomers to React Native. While it may be fine to do on the web, in React Native you should avoid using **map** in the render.
+
+This is because mapping over an array is not optimized. React Native will attempt to render every single element in the array all at once, regardless of whether they are visible on the screen or not.
+
+There are special components in React Native for rendering lists: these are:-
+
+- [FlatList](https://reactnative.dev/docs/flatlist)
+- [SectionList](https://reactnative.dev/docs/sectionlist)
 
 ### FlatList
 
 FlatList has a whole bunch of configuration options, but the minimum you will need to give it is 3 props:
 
-- data - this is the array of data you want to map over
-- renderItem - this is a function that is passed the item and its index and will return the individual item component
-- keyExtractor - this is a function that gets passed an item and its index
+- `data` - this is the array of data you want to map over
+- `renderItem` - this is a function that is passed the item and its index and will return the individual item component
+- `keyExtractor` - this is a function that gets passed an item and its index
 
-[🔍 FlatList example](https://snack.expo.io/@kadikraman/flatlist-example)
+[🔍 FlatList example](https://reactnative.dev/docs/flatlist)
 
 In this FlatList example, you'll see an array of foods being displayed using a FlatList.
 
@@ -28,7 +35,7 @@ SectionList is a similar to FlatList, but it allows you to render items in secti
 
 Additionally you can pass in a prop called `renderSectionHeader` which will let you render the title for each section.
 
-[🔍 SectionList example](https://snack.expo.io/@kadikraman/sectionlist-example)
+[🔍 SectionList example](https://reactnative.dev/docs/sectionlist)
 
 This is incredibly powerful and provides a really nice native experience for the user on the device.
 
