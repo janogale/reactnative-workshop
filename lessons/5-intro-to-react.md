@@ -1,7 +1,7 @@
 ---
 path: '/intro-to-react'
 title: 'Basic React Native components'
-order: 7
+order: 5
 section: 'Basic components'
 description: 'Quick intro to React and the basic building blocks of React Native: View, Text and ScrollView'
 ---

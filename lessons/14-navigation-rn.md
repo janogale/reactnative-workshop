@@ -1,7 +1,7 @@
 ---
 path: '/navigation-rn'
 title: '[RN] Adding navigation with plain React Native'
-order: 17
+order: 14
 section: 'Navigation'
 description: 'Adding Navigation in plain React Native'
 ---
@@ -76,5 +76,3 @@ Note that the gesture handle import has to be _the very first line_ in your file
 Now you'll have to also rebuild the native application. Whenever you add a library that has native dependencies, you'll have to reinstall in order for the new library to be included in the build.
 
 Open you terminal and run `npx react-native run-ios` or `npx react-native run-android` depending on what you're building for.
-
-[🔗 RN 3824add6be518a449c38e5935f1a39c26326352f](https://github.com/kadikraman/AwesomeProjectRN/commit/3824add6be518a449c38e5935f1a39c26326352f)

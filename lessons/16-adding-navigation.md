@@ -1,7 +1,7 @@
 ---
 path: '/adding-navigation'
 title: 'Adding Navigation'
-order: 18
+order: 16
 section: 'Navigation'
 description: 'We use react-navigation to navigate to a new page and back'
 ---
@@ -72,7 +72,7 @@ const ColorPalette = () => {
     <FlatList
       style={styles.container}
       data={COLORS}
-      keyExtractor={item => item.hexCode}
+      keyExtractor={(item) => item.hexCode}
       renderItem={({ item }) => (
         <ColorBox hexCode={item.hexCode} colorName={item.colorName} />
       )}

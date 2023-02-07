@@ -1,16 +1,10 @@
 ---
 path: '/lists-exercise-solution'
 title: 'Lists Exercise Solution 👀'
-order: 14
+order: 12
 section: 'Basic components'
 description: 'Solution to the lists exercise'
 ---
-
-[🔗 Expo ed604b55573dbf95c2090ee34b6672fcc3fb05df](https://github.com/kadikraman/AwesomeProjectExpo/commit/ed604b55573dbf95c2090ee34b6672fcc3fb05df)
-
-[🔗 RN 98c2e0bf744c42290c39b94afbed70db351e0de4](https://github.com/kadikraman/AwesomeProjectRN/commit/98c2e0bf744c42290c39b94afbed70db351e0de4)
-
-[👩‍💻 Live Coding cb8f698fefdffb4564384638643448c21e7ddfe8](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/cb8f698fefdffb4564384638643448c21e7ddfe8)
 
 In this solution we're removed the individual `ColorBox`es and rendered them all using a `FlatList`. Some things to note:
 
