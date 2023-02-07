@@ -8,6 +8,22 @@ description: 'We talk about components in React Native'
 
 React (Native) is a component-based framework. This means that your app is made from lots of components that are nested within each other. You always have one root component (in our case it is our App component), but inside it we can have as many big or small components as we'd like.
 
+### Core Components
+
+React Native provides a number of built-in Core Components ready for you to use in your app.
+
+- Basic Components
+  - `View Text Image TextInput ScrollView StyleSheet`
+- User Interface
+  - `Button Switch`
+- List Views
+  - `FlatList SectionList`
+- Others
+  - `StatusBar ActivityIndicator Alert ... `
+- Android-specific
+  - `BackHandler`
+- iOS-specific
+
 It's generally a really good practice to break your app into components and to make the components as small and standalone as possible. This is handy because:
 
 1. It promotes component reuse - you've already built a button once. Why not reuse it?
@@ -54,8 +70,7 @@ import ColorBox from './components/ColorBox';
 
 Now you should be able to see the text "I am a color box" in your app just under the last box!
 
-
-## Props
+### Props
 
 In order for our new ColorBox component to be able to reused for different colours, we'll need to somehow dynamically set its colour. To do this, we can use `props`. Props is short for properties and is basically a way to pass information down the component tree.
 
@@ -72,7 +87,7 @@ These props are now available to ColorBox. Let's open ColorBox again and display
 ```js
 // components/ColorBox.js
 
-const ColorBox = props => {
+const ColorBox = (props) => {
   return (
     <View>
       <Text>
@@ -93,7 +108,7 @@ Last thing we'll need to do is style the box! Remember that we can pass in an ar
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const ColorBox = props => {
+const ColorBox = (props) => {
   const colorStyle = {
     backgroundColor: props.hexCode,
   };
@@ -125,9 +140,3 @@ export default ColorBox;
 ```
 
 Finally, replace update all the existing colour boxes to use our new component and remove unused code, and we're done! The app looks the same, but our code is a whole lot cleaner.
-
-[🔗 Expo 51f04c9bd3d42d7518882686c0593156dd1773ac](https://github.com/kadikraman/AwesomeProjectExpo/commit/51f04c9bd3d42d7518882686c0593156dd1773ac)
-
-[🔗 RN a4ed9cd18fc164c560d3537f82c9a94d17c91441](https://github.com/kadikraman/AwesomeProjectRN/commit/a4ed9cd18fc164c560d3537f82c9a94d17c91441)
-
-[👩‍💻 Live Coding 6266918a02853bbbc0c61a62a44531d041d7690f](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/6266918a02853bbbc0c61a62a44531d041d7690f)
