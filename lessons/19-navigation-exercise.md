@@ -32,7 +32,7 @@ For this exercise:
 4. update the Home page to display the first 5 colors of the color scheme as preview (stretch goal)
 
 ```js
-const RAINBOW = [
+const Colors = [
   { colorName: 'Red', hexCode: '#FF0000' },
   { colorName: 'Orange', hexCode: '#FF7F00' },
   { colorName: 'Yellow', hexCode: '#FFFF00' },
@@ -40,7 +40,7 @@ const RAINBOW = [
   { colorName: 'Violet', hexCode: '#8B00FF' },
 ];
 
-const FRONTEND_MASTERS = [
+const ThemeColor = [
   { colorName: 'Red', hexCode: '#c02d28' },
   { colorName: 'Black', hexCode: '#3e3e3e' },
   { colorName: 'Grey', hexCode: '#8a8a8a' },

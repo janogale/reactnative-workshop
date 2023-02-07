@@ -26,11 +26,6 @@ Finally, if you haven't done so already, add `backgroundColor: 'white'` to the `
 
 _Make sure the page title will be the name of the color palette instead of the name of the page._
 
-[🔗 Expo e48d0c44a27fb335292caa98d60a4b543ea86d66](https://github.com/kadikraman/AwesomeProjectExpo/commit/e48d0c44a27fb335292caa98d60a4b543ea86d66)
-
-[🔗 RN addcea59e9e01a60c7e7864e36f925962f25433f](https://github.com/kadikraman/AwesomeProjectRN/commit/addcea59e9e01a60c7e7864e36f925962f25433f)
-
-[👩‍💻 Live Coding 2ceb25f0b6f4427a94f01c31fe8b85fe9b8d4a60](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/2ceb25f0b6f4427a94f01c31fe8b85fe9b8d4a60)
 
 As in the [docs](https://reactnavigation.org/docs/headers#using-params-in-the-title), open `App.js` and add an extra prop to the ColorPalette screen:
 
@@ -44,11 +39,7 @@ You can also delete the `ListHeaderComponent` prop from `ColorPalette`, since th
 
 _Add a the new color schemes._
 
-[🔗 Expo a530072a2fd96483522ae2773ecd60f0ccd7ccfc](https://github.com/kadikraman/AwesomeProjectExpo/commit/a530072a2fd96483522ae2773ecd60f0ccd7ccfc)
 
-[🔗 RN d8a1624f38969e5e2b5a635c0b65032749943e1b](https://github.com/kadikraman/AwesomeProjectRN/commit/d8a1624f38969e5e2b5a635c0b65032749943e1b)
-
-[👩‍💻 Live Coding 007ed8acf60af54754826d4035baf2e42b41a52a](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/007ed8acf60af54754826d4035baf2e42b41a52a)
 
 Fist off we'll want to create a new array for `COLOR_PALETTES`:
 
@@ -84,11 +75,7 @@ Make sure you've replaced the hardcoded values in renderItem with the dynamic on
 
 Update the Home page to display the first 5 colors of the color scheme as preview
 
-[🔗 Expo ee58e627009cd65b6b351d31f0fc283b9e22c71b](https://github.com/kadikraman/AwesomeProjectExpo/commit/ee58e627009cd65b6b351d31f0fc283b9e22c71b)
 
-[🔗 RN 00587307ee119e11bbbc0a74544969c2bd5da87e](https://github.com/kadikraman/AwesomeProjectRN/commit/00587307ee119e11bbbc0a74544969c2bd5da87e)
-
-[👩‍💻 Live Coding 8461a3e5e81831eaf77713437452d3c97fd4a984](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/8461a3e5e81831eaf77713437452d3c97fd4a984)
 
 Create a new component in out components directory and let's call it `PalettePreview`. Before you start adding styling and colors to it, make sure the existing functionality remains unbroken.
 
