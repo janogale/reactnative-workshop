@@ -10,11 +10,7 @@ description: 'Navigation exercise solution'
 
 _Update the app so that the colors and name are being passed into the ColorPalette component, making it reusable._
 
-[🔗 Expo 23c9ccc3a0943d2082e402cf5b2e524abb5fc186](https://github.com/kadikraman/AwesomeProjectExpo/commit/23c9ccc3a0943d2082e402cf5b2e524abb5fc186)
 
-[🔗 RN 16847962f25d823c57d2f7a4c060e976ccc53df5](https://github.com/kadikraman/AwesomeProjectRN/commit/16847962f25d823c57d2f7a4c060e976ccc53df5)
-
-[👩‍💻 Live Coding b1b7e91780a30d94ec5646e0481c1335448b504f](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/b1b7e91780a30d94ec5646e0481c1335448b504f)
 
 For this we need to move the `COLORS` constant from `ColorPalette` to `Home` and pass in both the paletteName and colors as a second argument to `navigation.navigate`.
 
