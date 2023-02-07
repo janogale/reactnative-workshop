@@ -1,7 +1,7 @@
 ---
 path: '/wrapping-up'
 title: 'Wrapping up'
-order: 29
+order: 25
 section: 'Conclusion'
 description: 'Conclusion'
 ---

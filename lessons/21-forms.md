@@ -1,7 +1,7 @@
 ---
 path: '/forms'
 title: 'Overview of Forms in React Native'
-order: 23
+order: 21
 section: 'Forms'
 description: 'Overview of form elements in React Native'
 ---

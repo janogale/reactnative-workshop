@@ -1,14 +1,12 @@
 ---
 path: '/forms-exercise-solution'
 title: 'Form exercise solution 👀'
-order: 28
+order: 24
 section: 'Forms'
 description: 'Solution to the Forms exercise'
 ---
 
-[🔗 Expo 04d7c8fc4b9d9ad9550f541f256136487f840fa9](https://github.com/kadikraman/AwesomeProjectExpo/commit/04d7c8fc4b9d9ad9550f541f256136487f840fa9)
 
-[🔗 RN 709f85b03bead57852da3a29fc7515bbb2219afc](https://github.com/kadikraman/AwesomeProjectRN/commit/709f85b03bead57852da3a29fc7515bbb2219afc)
 
 The main difficulty in this exercise is the issue of how to keep track of the value of so many toggle buttons. They key is to build an update function that can handle it. The switch component can return both the color the user is interacting with and whether they turned the switch on or off. This makes things simples for us, so we can add the color to the color array if they turned to switch on, and remove it otherwise:
 
