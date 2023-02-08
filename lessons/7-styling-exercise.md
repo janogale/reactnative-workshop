@@ -6,7 +6,7 @@ section: 'Basic components'
 description: 'Styling challenge: creating some colored boxes'
 ---
 
-The best way to learn is by doing so let's start off by adding some colour. Here's a little app I built, showcasing come of my favourite colours. Try to recreate it!
+The best way to learn is by doing so let's start off by adding some colour. Here's a little App, showcasing some of my favourite colours. Try to recreate it!
 
 Here are the colours I used:
 

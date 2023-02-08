@@ -12,15 +12,15 @@ description: 'Kadi talks about the history of React Native, why was it created a
 
 ### What is React Native?
 
-**React Native** is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and Windows providing native UI controls and full access to the native platform. Working with React Native requires an understanding of JavaScript fundamentals.
+**React Native** is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and Windows providing native UI controls and full access to the native platform. Working with React Native requires an understanding of `JavaScript` fundamentals.
 
 <div style="width:500px;margin:0 auto;margin-bottom:20px;">
     <img alt="iOS and Android phone" src="./images/rn-how-work-1.png" />
 </div>
 
-### React Native Features
+### React Native Contains
 
-Following are the features of React Native −
+Following are the layers of React Native −
 
 - **React** − This is a Framework for building web and mobile apps using JavaScript.
 - **Native** − You can use native components controlled by JavaScript.
